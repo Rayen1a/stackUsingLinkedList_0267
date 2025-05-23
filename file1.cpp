@@ -124,5 +124,6 @@ int main()
             cout << "Exiting program." << endl;
             break;
         }
+        cout << endl;
     }
 }
