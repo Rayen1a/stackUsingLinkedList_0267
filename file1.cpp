@@ -79,7 +79,7 @@ int main()
     Stack stack;
 
     int choice = 0;
-    int vailue;
+    int value;
 
     while (choice != 4)
     {
@@ -89,5 +89,14 @@ int main()
         cout << "4. Exit\n";
         cout << "5. Enter your choice : ";
         cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+            cout << "Enter the value to push: ";
+            cin >> value;
+            stack.push(value); // push the entered value onto the stack
+            break;
+        }
     }
 }
