@@ -44,11 +44,11 @@ class Stack
 
         Node *temp = top; //  Create a temporary pointer to the top node
         top = top->next; // update the to pointer to the next node
-        cout << "Popped value: " << top->data << endl;
+        cout << "Popped value: " << temp->data << endl;
         delete temp;
     }
 
-    // Peek/Top operation: retrieve the value of the topmost element withhout romo
+    // Peek/Top operation: retrieve the value of the topmost element withhout romove
     void peek()
     {
         if (top == NULL)
