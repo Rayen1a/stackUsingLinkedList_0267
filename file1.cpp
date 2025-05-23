@@ -114,6 +114,7 @@ int main()
             {
                 stack.peek();
             }
+            else
         }
     }
 }
