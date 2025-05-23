@@ -72,4 +72,12 @@ class Stack
     {
         return top == NULL; // return true if the top pointer is NULL, idicating
     }
+};
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int vailue;
 }
