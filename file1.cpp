@@ -115,6 +115,10 @@ int main()
                 stack.peek();
             }
             else
+            {
+                cout << "Stack is Empty.No top value" << endl;
+            }
+            break;
         }
     }
 }
