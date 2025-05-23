@@ -33,4 +33,18 @@ class Stack
         cout << "Push value: " << value << endl;
         return value;
     }
-}  
+
+    // pop operation: remove the topmost element from the stack
+    void pop()
+    {
+        if (isEmpty())
+        {
+            cout << "Stack id Empty," << endl;
+        }
+
+        Node *temp = top; //  Create a temporary pointer to the top node
+        top = top->next; // update the to pointer to the next node
+        cout << "Popped value: " << top->data << endl;
+        delete temp;
+    }
+}
